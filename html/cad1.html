@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="pt-br"
+<head>
+
+<meta charset="utf-8">
+<title>Cadastro de Perfil</title>
+<link rel="stylesheet" type="text/css" href="../css/style2.css"/>
+<link rel="stylesheet" type="text/css" href="../css/but2.css"/>
+<link rel="stylesheet" type="text/css" href="../css/but1.css"/>
+</head>
+	
+<body id="cad1">
+<a href="../index.html" class="hvr-sweep-to-left">Voltar</a> 
+	<div id="cd1"></div> 
+
+<body>
+ 
+ <form action="../php/perfil.php" method="post">
+    <fieldset>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" style="width: 10em" value="">
+            </div>
+            <div class="campo">
+                <label for="snome">Sobrenome</label>
+                <input type="text" id="snome" name="snome" style="width: 10em" value="">
+            </div>
+        </fieldset>
+        <div class="campo">
+            <label for="sexo">Sexo</label>
+            <label>
+                <input type="radio" id="sexo" name="sexo" value="Masculino"> Masculino
+            </label>
+            <label>
+                <input type="radio" id="sexo" name="sexo" value="Feminino"> Feminino
+            </label>
+        </div>
+		  <div class="campo">
+            <label for="email">CPF</label>
+            <input type="text" id="cpf" name="cpf" style="width: 20em" value="">
+        </div>
+        <div class="campo">
+            <label for="email">E-mail</label>
+            <input type="text" id="email" name="email" style="width: 20em" value="">
+        </div>
+        <div class="campo">
+            <label for="telefone">Telefone</label>
+            <input type="text" id="telefone" name="telefone" style="width: 10em" value="">
+        </div>
+
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="cidade">Cidade</label>
+                <input type="text" id="cidade" name="cidade" style="width: 10em" value="">
+            </div>
+            <div class="campo">
+                <label for="estado">Estado</label>
+                <select name="estado" id="estado">
+                    <option value="">--</option>
+                    <option value="PR">PR</option>
+                    <option value="SP" selected>SP</option>
+                    <option value="RJ">RJ</option>
+                    <option value="BA">BA</option>
+                    <option value="MG">MG</option>
+                    
+                </select>
+            </div>
+        </fieldset>
+
+       <div class="campo">
+            <label>Notificações</label>
+            <label>
+                <input type="checkbox" name="newsletter" value="1"> Gostaria de receber as notificações da clínica.
+            </label>
+        </div>
+
+        <button type="submit" name="submit">Cadastrar</button>
+    </fieldset>
+</form>
+</body>
+
+<style>body{
+    background-image: url('../img/bg.jpg');
+    background-attachment: absolute;
+    background-size: cover;
+	background-repeat: no-repeat;
+    }</style>
+
+
+</html>
