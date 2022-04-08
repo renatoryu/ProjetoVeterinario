@@ -1,3 +1,5 @@
+<img src="img/Site_Vet.png" align="right" width="400px">
+
 # ProjetoVeterinario
 Projeto desenvolvido no Curso Técnico de Desenvolvimento de Sistemas representando uma clínica veterinária.<br><br>
 
