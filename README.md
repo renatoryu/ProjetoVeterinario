@@ -5,4 +5,3 @@ Projeto desenvolvido no Curso Técnico de Desenvolvimento de Sistemas representa
 
 Todo o projeto foi realizado em um site e utiliza as linguagens de programação: HTML 5 + CSS + JS, PHP e para armazenar os dados utilizamos o MySQL.<br><br>
 
-* [Acesse o site clicando aqui](https://renatoryu.github.io/ProjetoVeterinario/)
